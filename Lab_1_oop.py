@@ -22,7 +22,7 @@ class Car:
 
     @staticmethod
     def calculate_vat(price):
-        return price * 0.2  # Статичний метод
+        return price * 0.2
 
 
 class PassengerCar(Car, EcoFriendly):
@@ -178,7 +178,5 @@ class AutoSalon:
             else:
                 print("Invalid option. Please try again.")
 
-
-# Запуск інтерактивної консолі
 salon = AutoSalon("Luxury Vehicles")
 salon.interactive_console()
